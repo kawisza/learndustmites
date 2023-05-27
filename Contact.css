@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  
+}
+
+.cid-scfXaRs9Yh {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
+
+
+.google-map {
+  height: 400px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+
+/* menu-btn-hover */
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: rgba(62, 79, 60, 1);
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+/* end */
+
+
+#map2-5h {
+  background-color: #d2c7bc;
+}
+/* #header9-6i {
+  background-color: aqua;
+
+} */
+
+/* footer */
+.blog-footer {
+  padding: 2rem ;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 0.05rem solid #e5e5e5;
+}
+/* end footer */
